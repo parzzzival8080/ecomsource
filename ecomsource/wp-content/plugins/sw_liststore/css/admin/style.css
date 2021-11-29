@@ -1,0 +1,67 @@
+.setting-liststore-panel{
+	background: #fff;
+	margin: 30px 15px 0;
+	padding: 15px;
+	box-shadow: 1px 1px 1px 1px #999;
+}
+.setting-liststore-panel  h1{
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.setting-liststore-panel form .setting-wrapper:first-child{
+	margin: 0;
+}
+.setting-liststore-panel form .setting-wrapper{
+	padding: 15px 0;
+	margin: 0 0 30px;
+}
+.setting-liststore-panel form .setting-wrapper.even{
+	background: #eee;
+	padding: 15px;
+	margin: 0 -15px 30px;
+}
+.setting-liststore-panel form .setting-wrapper ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.setting-liststore-panel form .setting-wrapper ul > li{
+	margin-right: 30px;
+}
+.setting-liststore-panel form .setting-wrapper ul > li.label{
+	font-weight: bold;
+	min-width: 250px;
+}
+.setting-liststore-panel form .setting-wrapper ul > li.setting-content{
+	flex: 2;
+}
+
+.setting-liststore-panel form .setting-wrapper .setting-remove{
+	background: #f00;
+	border-color: transparent;
+	box-shadow: none;
+	color: #fff;
+	padding: 3px 10px;
+	margin-right: 15px;
+	border-radius: 3px;
+}
+
+.setting-liststore-panel form .setting-liststore-bottom{
+	display: flex;
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+}
+.setting-liststore-panel form .setting-liststore-bottom p.submit{
+	padding: 0;
+	margin: 0;
+}
+.setting-liststore-panel form .setting-liststore-bottom p.submit #setting_more{
+	background: #ff5a00;
+	border-color: transparent;
+	box-shadow: none;
+	color: #fff;
+	padding: 3px 10px;
+	margin-right: 15px;
+	border-radius: 3px;
+}

@@ -1,0 +1,36 @@
+*** WooCommerce Shopee Integration Changelog ***
+
+2021-03-19 - version 1.0.7
+* [Added] - Meta Key search option in profile section.
+* [Added] - New location added [Mexico].
+* [Added] - Order status get update automatically from shopee to woocommerce
+* [Added] - Real time syncing for price and stock is added.
+* [Added] - Sync Existing Products on the basis ok SKU feature is added.
+* [Fixed] - Category Mapping and Profile list bug fixed.
+* [Fixed] - Fixed Language issues.
+* [Fixed] - Variation data update bug fixed.
+
+2020-07-29 - version 1.0.6
+* Add - Improved Stability
+* Add - Compatible for Brazil sellers
+
+2020-07-02 - version 1.0.5
+* Add - Chat icon for plugin support
+
+2020-06-09 - version 1.0.4
+* Order currency Bug Fixed
+* Shipping cost adding Bug Fixed
+
+2020-05-07 - version 1.0.3
+* Add - Enhanced uploading of products
+
+2020-01-23 - version 1.0.2
+* Get Refreshed Logistics Option
+* Variation Product Inventory Sync Bug Fixed
+
+2019-11-30 - version 1.0.1
+* Inventory Sync Bug Fixed
+* Import Product Bug Fixed
+
+2019-09-14 - version 1.0.0
+* Inital release

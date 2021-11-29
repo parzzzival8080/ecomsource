@@ -1,0 +1,25 @@
+.sw-author-awards .author-awards-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+.sw-author-awards .author-awards-item:nth-child(2n){
+	background: #eee;
+}
+.author-awards-bottom{
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}
+.author-awards-bottom > a{
+	display: inline-block;
+	background: #106500;
+	padding: 7px 15px;
+	color: #fff;
+	border-radius: 3px;
+	text-decoration: none;
+	margin: 10px 0 0;
+}
+#author_product{
+	width: 100%;
+}

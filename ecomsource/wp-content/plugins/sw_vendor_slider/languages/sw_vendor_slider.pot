@@ -1,0 +1,515 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SW Woocommerce\n"
+"POT-Creation-Date: 2021-03-24 16:11+0700\n"
+"PO-Revision-Date: 2015-12-25 14:46+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/sw-dokan-vendor-slider-widget.php:26
+msgid "Sw Dokan Vendor Slider"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:32
+msgid "Sw Dokan Vendor Slider Widget"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:179
+#: includes/sw-vendor-slider-widget.php:186
+#: includes/sw-wcfm-vendor-slider-widget.php:179
+#: includes/sw-wcmp-vendor-slider-widget.php:179
+msgid "Select User"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:271
+#: includes/sw-vendor-slider-widget.php:280
+#: includes/sw-wcfm-vendor-slider-widget.php:271
+#: includes/sw-wcmp-vendor-slider-widget.php:271 includes/visual-map.php:74
+#: includes/visual-map.php:78 includes/visual-map.php:273
+#: includes/visual-map.php:277 includes/visual-map.php:447
+#: includes/visual-map.php:451
+msgid "Title"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:278
+#: includes/sw-vendor-slider-widget.php:287
+#: includes/sw-wcfm-vendor-slider-widget.php:278
+#: includes/sw-wcmp-vendor-slider-widget.php:278
+msgid "Description"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:285
+#: includes/sw-vendor-slider-widget.php:301
+#: includes/sw-wcfm-vendor-slider-widget.php:285
+#: includes/sw-wcmp-vendor-slider-widget.php:285 includes/visual-map.php:57
+#: includes/visual-map.php:256 includes/visual-map.php:430
+msgid "Select Users"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:292
+#: includes/sw-vendor-slider-widget.php:308
+#: includes/sw-wcfm-vendor-slider-widget.php:292
+#: includes/sw-wcmp-vendor-slider-widget.php:292
+msgid "Style"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:298
+#: includes/sw-dokan-vendor-slider-widget.php:509
+#: includes/sw-vendor-slider-widget.php:314
+#: includes/sw-vendor-slider-widget.php:534
+#: includes/sw-wcfm-vendor-slider-widget.php:298
+#: includes/sw-wcfm-vendor-slider-widget.php:509
+#: includes/sw-wcmp-vendor-slider-widget.php:298
+#: includes/sw-wcmp-vendor-slider-widget.php:509
+msgid "Default"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:302
+#: includes/sw-vendor-slider-widget.php:318
+#: includes/sw-wcfm-vendor-slider-widget.php:302
+#: includes/sw-wcmp-vendor-slider-widget.php:302
+msgid "Style1"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:305
+#: includes/sw-vendor-slider-widget.php:321
+#: includes/sw-wcfm-vendor-slider-widget.php:305
+#: includes/sw-wcmp-vendor-slider-widget.php:305
+msgid "Style2"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:308
+#: includes/sw-vendor-slider-widget.php:324
+#: includes/sw-wcfm-vendor-slider-widget.php:308
+#: includes/sw-wcmp-vendor-slider-widget.php:308
+msgid "Style3"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:311
+#: includes/sw-vendor-slider-widget.php:327
+#: includes/sw-wcfm-vendor-slider-widget.php:311
+#: includes/sw-wcmp-vendor-slider-widget.php:311
+msgid "Style4"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:314
+#: includes/sw-vendor-slider-widget.php:330
+#: includes/sw-wcfm-vendor-slider-widget.php:314
+#: includes/sw-wcmp-vendor-slider-widget.php:314
+msgid "Style5"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:321
+#: includes/sw-vendor-slider-widget.php:337
+#: includes/sw-wcfm-vendor-slider-widget.php:321
+#: includes/sw-wcmp-vendor-slider-widget.php:321
+msgid "User description length (in words): "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:329
+#: includes/sw-vendor-slider-widget.php:345
+#: includes/sw-wcfm-vendor-slider-widget.php:329
+#: includes/sw-wcmp-vendor-slider-widget.php:329 includes/visual-map.php:96
+msgid "Banner Links"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:336
+#: includes/sw-vendor-slider-widget.php:352
+#: includes/sw-wcfm-vendor-slider-widget.php:336
+#: includes/sw-wcmp-vendor-slider-widget.php:336
+msgid "Image attachment ID"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:344
+#: includes/sw-vendor-slider-widget.php:369
+#: includes/sw-wcfm-vendor-slider-widget.php:344
+#: includes/sw-wcmp-vendor-slider-widget.php:344
+msgid "Number row per column:  "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:365
+#: includes/sw-vendor-slider-widget.php:390
+#: includes/sw-wcfm-vendor-slider-widget.php:365
+#: includes/sw-wcmp-vendor-slider-widget.php:365 includes/visual-map.php:151
+#: includes/visual-map.php:325 includes/visual-map.php:499
+msgid "Number of Columns >1200px: "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:385
+#: includes/sw-vendor-slider-widget.php:410
+#: includes/sw-wcfm-vendor-slider-widget.php:385
+#: includes/sw-wcmp-vendor-slider-widget.php:385
+msgid "Number of Columns on 992px to 1199px: "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:405
+#: includes/sw-vendor-slider-widget.php:430
+#: includes/sw-wcfm-vendor-slider-widget.php:405
+#: includes/sw-wcmp-vendor-slider-widget.php:405
+msgid "Number of Columns on 768px to 991px: "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:425
+#: includes/sw-vendor-slider-widget.php:450
+#: includes/sw-wcfm-vendor-slider-widget.php:425
+#: includes/sw-wcmp-vendor-slider-widget.php:425
+msgid "Number of Columns on 480px to 767px: "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:445
+#: includes/sw-vendor-slider-widget.php:470
+#: includes/sw-wcfm-vendor-slider-widget.php:445
+#: includes/sw-wcmp-vendor-slider-widget.php:445
+msgid "Number of Columns in 480px or less than: "
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:465
+#: includes/sw-vendor-slider-widget.php:490
+#: includes/sw-wcfm-vendor-slider-widget.php:465
+#: includes/sw-wcmp-vendor-slider-widget.php:465 includes/visual-map.php:211
+#: includes/visual-map.php:215 includes/visual-map.php:385
+#: includes/visual-map.php:389 includes/visual-map.php:559
+#: includes/visual-map.php:563
+msgid "Auto Play"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:471
+#: includes/sw-vendor-slider-widget.php:496
+#: includes/sw-wcfm-vendor-slider-widget.php:471
+#: includes/sw-wcmp-vendor-slider-widget.php:471
+msgid "False"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:474
+#: includes/sw-vendor-slider-widget.php:499
+#: includes/sw-wcfm-vendor-slider-widget.php:474
+#: includes/sw-wcmp-vendor-slider-widget.php:474
+msgid "True"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:480
+#: includes/sw-vendor-slider-widget.php:505
+#: includes/sw-wcfm-vendor-slider-widget.php:480
+#: includes/sw-wcmp-vendor-slider-widget.php:480 includes/visual-map.php:221
+#: includes/visual-map.php:225 includes/visual-map.php:395
+#: includes/visual-map.php:399 includes/visual-map.php:569
+#: includes/visual-map.php:573
+msgid "Interval"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:487
+#: includes/sw-vendor-slider-widget.php:512
+#: includes/sw-wcfm-vendor-slider-widget.php:487
+#: includes/sw-wcmp-vendor-slider-widget.php:487 includes/visual-map.php:201
+#: includes/visual-map.php:375 includes/visual-map.php:549
+msgid "Speed"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:495
+#: includes/sw-vendor-slider-widget.php:520
+#: includes/sw-wcfm-vendor-slider-widget.php:495
+#: includes/sw-wcmp-vendor-slider-widget.php:495 includes/visual-map.php:241
+#: includes/visual-map.php:245 includes/visual-map.php:415
+#: includes/visual-map.php:419 includes/visual-map.php:589
+#: includes/visual-map.php:593
+msgid "Total Items Slided"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:502
+#: includes/sw-vendor-slider-widget.php:527
+#: includes/sw-wcfm-vendor-slider-widget.php:502
+#: includes/sw-wcmp-vendor-slider-widget.php:502
+msgid "Template"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:513
+#: includes/sw-wcfm-vendor-slider-widget.php:513
+#: includes/sw-wcmp-vendor-slider-widget.php:513
+msgid "Layout1"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:517
+#: includes/sw-wcfm-vendor-slider-widget.php:517
+#: includes/sw-wcmp-vendor-slider-widget.php:517
+msgid "Layout2"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:521
+#: includes/sw-wcfm-vendor-slider-widget.php:521
+#: includes/sw-wcmp-vendor-slider-widget.php:521
+msgid "Layout3"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:525
+#: includes/sw-wcfm-vendor-slider-widget.php:525
+#: includes/sw-wcmp-vendor-slider-widget.php:525
+msgid "Layout4"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:529
+#: includes/sw-wcfm-vendor-slider-widget.php:529
+#: includes/sw-wcmp-vendor-slider-widget.php:529
+msgid "Layout5"
+msgstr ""
+
+#: includes/sw-dokan-vendor-slider-widget.php:533
+#: includes/sw-wcfm-vendor-slider-widget.php:533
+#: includes/sw-wcmp-vendor-slider-widget.php:533
+msgid "Layout7"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:26
+msgid "Sw Vendor Slider"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:32
+msgid "Sw Vendor Slider Widget"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:294
+msgid "Product Title Length"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:360
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:538
+msgid "Layout 1"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:542
+msgid "Layout 2"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:546
+msgid "Layout 3"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:550
+msgid "Layout 4"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:554
+msgid "Layout 5"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:558
+msgid "Layout 6"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:562
+msgid "Layout 7"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:566
+msgid "Layout 8"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:570
+msgid "Tab Vendor Product"
+msgstr ""
+
+#: includes/sw-wcfm-vendor-slider-widget.php:26
+msgid "Sw WCFM Vendor Slider"
+msgstr ""
+
+#: includes/sw-wcfm-vendor-slider-widget.php:32
+msgid "Sw WCFM Vendor Slider Widget"
+msgstr ""
+
+#: includes/sw-wcmp-vendor-slider-widget.php:26
+msgid "Sw WC Marketplace Vendor Slider"
+msgstr ""
+
+#: includes/sw-wcmp-vendor-slider-widget.php:32
+msgid "Sw WC Marketplace Vendor Slider Widget"
+msgstr ""
+
+#: includes/themes/default-dokan.php:25 includes/themes/theme1-dokan.php:43
+#: includes/themes/theme2-dokan.php:26 includes/themes/theme3-dokan.php:26
+#: includes/themes/theme4-dokan.php:32 includes/themes/theme5-dokan.php:26
+#: includes/themes/theme7-dokan.php:32
+msgid "N/A"
+msgstr ""
+
+#: includes/themes/default-dokan.php:73 includes/themes/default-wcfm.php:78
+#: includes/themes/default-wcm.php:75 includes/themes/default.php:72
+#: includes/themes/theme1-dokan.php:58 includes/themes/theme1-wcfm.php:61
+#: includes/themes/theme1-wcm.php:55 includes/themes/theme1.php:54
+#: includes/themes/theme2-dokan.php:41 includes/themes/theme2-wcfm.php:44
+#: includes/themes/theme2-wcm.php:38 includes/themes/theme2.php:37
+#: includes/themes/theme3-dokan.php:41 includes/themes/theme3-wcfm.php:44
+#: includes/themes/theme3-wcm.php:38 includes/themes/theme3.php:37
+#: includes/themes/theme4-dokan.php:50 includes/themes/theme4-wcfm.php:52
+#: includes/themes/theme4-wcm.php:46 includes/themes/theme4.php:43
+#: includes/themes/theme5-dokan.php:115 includes/themes/theme5-wcfm.php:118
+#: includes/themes/theme5-wcm.php:112 includes/themes/theme5.php:111
+#: includes/themes/theme7-dokan.php:51 includes/themes/theme7-wcfm.php:53
+#: includes/themes/theme7-wcm.php:47 includes/themes/theme7.php:44
+#: includes/themes/theme8.php:124
+msgid " products"
+msgstr ""
+
+#: includes/themes/default-dokan.php:85 includes/themes/default-wcfm.php:90
+#: includes/themes/default-wcm.php:88 includes/themes/default.php:85
+#: includes/themes/tab-vendor.php:138 includes/themes/theme1-dokan.php:103
+#: includes/themes/theme1-wcfm.php:106 includes/themes/theme1-wcm.php:100
+#: includes/themes/theme1.php:99 includes/themes/theme2-dokan.php:85
+#: includes/themes/theme2-wcfm.php:88 includes/themes/theme2-wcm.php:82
+#: includes/themes/theme2.php:81 includes/themes/theme3-dokan.php:85
+#: includes/themes/theme3-wcfm.php:88 includes/themes/theme3-wcm.php:82
+#: includes/themes/theme3.php:81 includes/themes/theme4-dokan.php:64
+#: includes/themes/theme4-wcfm.php:66 includes/themes/theme4-wcm.php:60
+#: includes/themes/theme4.php:57 includes/themes/theme5-dokan.php:128
+#: includes/themes/theme5-wcfm.php:131 includes/themes/theme5-wcm.php:125
+#: includes/themes/theme5.php:124 includes/themes/theme6.php:96
+#: includes/themes/theme7-dokan.php:64 includes/themes/theme7-wcfm.php:66
+#: includes/themes/theme7-wcm.php:60 includes/themes/theme7.php:57
+#: includes/themes/theme8.php:136
+msgid "There is not vendor on this component"
+msgstr ""
+
+#: includes/themes/tab-vendor.php:109
+msgid "off"
+msgstr ""
+
+#: includes/themes/tab-vendor.php:120
+msgid " Sold"
+msgstr ""
+
+#: includes/themes/tab-vendor.php:128
+msgid "View all "
+msgstr ""
+
+#: includes/themes/tab-vendor.php:128
+msgid " products..."
+msgstr ""
+
+#: includes/themes/theme1-dokan.php:61 includes/themes/theme1-wcfm.php:64
+#: includes/themes/theme1-wcm.php:58 includes/themes/theme1.php:57
+msgid "Shop Now"
+msgstr ""
+
+#: includes/themes/theme8.php:32
+msgid "View more"
+msgstr ""
+
+#: includes/themes/theme8.php:109
+msgid "Off"
+msgstr ""
+
+#: includes/visual-map.php:64
+msgid "Sw Vendor Slider WC Vendor"
+msgstr ""
+
+#: includes/visual-map.php:68 includes/visual-map.php:267
+#: includes/visual-map.php:441
+msgid "SW Shortcodes"
+msgstr ""
+
+#: includes/visual-map.php:83 includes/visual-map.php:85
+msgid "Select Image"
+msgstr ""
+
+#: includes/visual-map.php:99
+msgid "Each banner link seperate by commas."
+msgstr ""
+
+#: includes/visual-map.php:109 includes/visual-map.php:283
+#: includes/visual-map.php:457
+msgid "Users"
+msgstr ""
+
+#: includes/visual-map.php:113 includes/visual-map.php:287
+#: includes/visual-map.php:461
+msgid "Select Categories"
+msgstr ""
+
+#: includes/visual-map.php:120 includes/visual-map.php:124
+#: includes/visual-map.php:294 includes/visual-map.php:298
+#: includes/visual-map.php:468 includes/visual-map.php:472
+msgid "Number Of Post"
+msgstr ""
+
+#: includes/visual-map.php:131 includes/visual-map.php:305
+#: includes/visual-map.php:479
+msgid "Description Length"
+msgstr ""
+
+#: includes/visual-map.php:135 includes/visual-map.php:309
+#: includes/visual-map.php:483
+msgid "Number word of description to show"
+msgstr ""
+
+#: includes/visual-map.php:141 includes/visual-map.php:145
+#: includes/visual-map.php:315 includes/visual-map.php:319
+#: includes/visual-map.php:489 includes/visual-map.php:493
+msgid "Number row per column"
+msgstr ""
+
+#: includes/visual-map.php:155 includes/visual-map.php:329
+#: includes/visual-map.php:503
+msgid "Number of Columns >1200px:"
+msgstr ""
+
+#: includes/visual-map.php:161 includes/visual-map.php:165
+#: includes/visual-map.php:335 includes/visual-map.php:339
+#: includes/visual-map.php:509 includes/visual-map.php:513
+msgid "Number of Columns on 992px to 1199px:"
+msgstr ""
+
+#: includes/visual-map.php:171 includes/visual-map.php:175
+#: includes/visual-map.php:345 includes/visual-map.php:349
+#: includes/visual-map.php:519 includes/visual-map.php:523
+msgid "Number of Columns on 768px to 991px:"
+msgstr ""
+
+#: includes/visual-map.php:181 includes/visual-map.php:185
+#: includes/visual-map.php:355 includes/visual-map.php:359
+#: includes/visual-map.php:529 includes/visual-map.php:533
+msgid "Number of Columns on 480px to 767px:"
+msgstr ""
+
+#: includes/visual-map.php:191 includes/visual-map.php:195
+#: includes/visual-map.php:365 includes/visual-map.php:369
+#: includes/visual-map.php:539 includes/visual-map.php:543
+msgid "Number of Columns in 480px or less than:"
+msgstr ""
+
+#: includes/visual-map.php:205 includes/visual-map.php:379
+#: includes/visual-map.php:553
+msgid "Speed Of Slide"
+msgstr ""
+
+#: includes/visual-map.php:231 includes/visual-map.php:235
+#: includes/visual-map.php:405 includes/visual-map.php:409
+#: includes/visual-map.php:579 includes/visual-map.php:583
+msgid "Layout"
+msgstr ""
+
+#: includes/visual-map.php:263
+msgid "Sw Vendor Slider Dokan Vendor"
+msgstr ""
+
+#: includes/visual-map.php:437
+msgid "Sw Vendor Slider WC MarketPlace"
+msgstr ""
+
+#: sw-vendor-slider.php:78
+msgid ""
+"Sw Vendor is enabled but not effective. It requires WooCommerce and WC Vendor "
+"in order to work."
+msgstr ""

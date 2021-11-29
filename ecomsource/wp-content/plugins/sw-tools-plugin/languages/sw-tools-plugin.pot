@@ -1,0 +1,198 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Sw Tools Plugin\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: contact@wpthemego.com\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__;esc_html_e;esc_attr_e;esc_attr_x;_n:1,2;_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-tools-plugin.php:23 admin/admin-tools-plugin.php:24
+#: admin/admin-tools-plugin.php:57
+msgid "SW Tools Plugin"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:67
+msgid "Status"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:70
+msgid "Enabled"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:71
+msgid "Disabled"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:76
+msgid "Position"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:79
+msgid "Right"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:80
+msgid "Left"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:85
+msgid "Top (px)"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:93
+msgid "Limit Recent Product"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:102
+msgid "Show category"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:110
+msgid "Show category empty"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:119
+msgid "Show cart"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:127
+msgid "Show account"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:135
+msgid "Show search"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:143
+msgid "Show recent view"
+msgstr ""
+
+#: admin/admin-tools-plugin.php:151
+msgid "Show backtop"
+msgstr ""
+
+#: inc/functions.php:140
+msgid "Categories"
+msgstr ""
+
+#: inc/functions.php:143
+msgid "Cart"
+msgstr ""
+
+#: inc/functions.php:146
+msgid "Account"
+msgstr ""
+
+#: inc/functions.php:149 inc/templates/search.php:7 inc/templates/search.php:16
+#: inc/templates/search.php:22
+msgid "Search"
+msgstr ""
+
+#: inc/functions.php:152
+msgid "Recent Viewed Products"
+msgstr ""
+
+#: inc/functions.php:155
+msgid "Back To Top"
+msgstr ""
+
+#: inc/functions.php:173
+msgid "Shopping cart"
+msgstr ""
+
+#: inc/functions.php:229
+msgid "Has no content to show !"
+msgstr ""
+
+#: inc/functions.php:295
+msgid "Add to cart"
+msgstr ""
+
+#: inc/templates/account.php:8
+msgid "My account"
+msgstr ""
+
+#: inc/templates/account.php:19
+msgid "ACCOUNT"
+msgstr ""
+
+#: inc/templates/account.php:27
+msgid "HISTORY"
+msgstr ""
+
+#: inc/templates/account.php:35
+msgid "SHOPPING CART"
+msgstr ""
+
+#: inc/templates/account.php:43
+msgid "DOWNLOAD"
+msgstr ""
+
+#: inc/templates/account.php:51
+msgid "ADDRESS"
+msgstr ""
+
+#: inc/templates/account.php:59
+msgid "LOGOUT"
+msgstr ""
+
+#: inc/templates/account.php:68
+msgid "REGISTER"
+msgstr ""
+
+#: inc/templates/account.php:77 inc/templates/account.php:86
+msgid "LOGIN"
+msgstr ""
+
+#: inc/templates/account.php:92
+msgid "BACK"
+msgstr ""
+
+#: inc/templates/category.php:6
+msgid "All Categories"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:4
+msgid "There are"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:4
+msgid " item(s)"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:4
+msgid "in your cart"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:41 inc/templates/mini-cart-ajax.php:42
+msgid "Subtotal"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:51 inc/templates/mini-cart-ajax.php:52
+msgid "Total"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:56
+msgid "View Cart"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:57
+msgid "Checkout"
+msgstr ""
+
+#: inc/templates/mini-cart-ajax.php:63
+msgid "Your shopping cart is empty!"
+msgstr ""
+
+#: inc/templates/recent_view.php:7
+msgid "Recent view products"
+msgstr ""

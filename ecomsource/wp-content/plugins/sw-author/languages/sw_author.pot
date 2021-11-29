@@ -1,0 +1,341 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SW Core\n"
+"POT-Creation-Date: 2020-07-28 08:37+0700\n"
+"PO-Revision-Date: 2016-11-16 11:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;_e;_x:1,2c;esc_html_e;_n:1,2;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/author-taxonomy.php:21 admin/author-taxonomy.php:31
+msgid "Authors"
+msgstr ""
+
+#: admin/author-taxonomy.php:22
+msgid "Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:23
+msgid "Search Authors"
+msgstr ""
+
+#: admin/author-taxonomy.php:24
+msgid "All Authors"
+msgstr ""
+
+#: admin/author-taxonomy.php:25
+msgid "Parent Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:26
+msgid "Parent Author:"
+msgstr ""
+
+#: admin/author-taxonomy.php:27
+msgid "Edit Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:28
+msgid "Update Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:29
+msgid "Add New Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:30
+msgid "New Author Name"
+msgstr ""
+
+#: admin/author-taxonomy.php:50
+msgid "Categories Authors"
+msgstr ""
+
+#: admin/author-taxonomy.php:50
+msgid "Category Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:53 admin/author-taxonomy.php:54
+msgid "Tags"
+msgstr ""
+
+#: admin/author-taxonomy.php:66 includes/functions.php:234
+msgid "Awards & Honorable Mentions"
+msgstr ""
+
+#: admin/author-taxonomy.php:67 admin/author-taxonomy.php:151
+msgid "Infor Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:68
+msgid "Book Authors"
+msgstr ""
+
+#: admin/author-taxonomy.php:69
+msgid "Book Preview"
+msgstr ""
+
+#: admin/author-taxonomy.php:75 admin/author-taxonomy.php:106
+#: admin/author-taxonomy.php:114
+msgid "Enter award title"
+msgstr ""
+
+#: admin/author-taxonomy.php:76 admin/author-taxonomy.php:107
+#: admin/author-taxonomy.php:115
+msgid "Enter award year"
+msgstr ""
+
+#: admin/author-taxonomy.php:77 admin/author-taxonomy.php:108
+#: admin/author-taxonomy.php:116
+msgid "Enter name of book"
+msgstr ""
+
+#: admin/author-taxonomy.php:78 admin/author-taxonomy.php:109
+msgid "Delete"
+msgstr ""
+
+#: admin/author-taxonomy.php:120
+msgid "Add More"
+msgstr ""
+
+#: admin/author-taxonomy.php:138
+msgid "Social"
+msgstr ""
+
+#: admin/author-taxonomy.php:139
+msgid "Facebook"
+msgstr ""
+
+#: admin/author-taxonomy.php:142
+msgid "Twitter"
+msgstr ""
+
+#: admin/author-taxonomy.php:145
+msgid "Instagram"
+msgstr ""
+
+#: admin/author-taxonomy.php:148
+msgid "Linkedin"
+msgstr ""
+
+#: admin/author-taxonomy.php:152 includes/functions.php:169
+msgid "Age"
+msgstr ""
+
+#: admin/author-taxonomy.php:155 includes/functions.php:172
+msgid "Languages"
+msgstr ""
+
+#: admin/author-taxonomy.php:158
+msgid "Books published"
+msgstr ""
+
+#: admin/author-taxonomy.php:170 admin/author-taxonomy.php:171
+msgid "Select Book Author"
+msgstr ""
+
+#: admin/author-taxonomy.php:193
+msgid "Upload Preview Book"
+msgstr ""
+
+#: admin/author-taxonomy.php:198
+msgid "Upload"
+msgstr ""
+
+#: admin/author-taxonomy.php:227
+msgid "Choose an image"
+msgstr ""
+
+#: admin/author-taxonomy.php:229
+msgid "Use image"
+msgstr ""
+
+#: admin/author-taxonomy.php:315
+msgid "No products found."
+msgstr ""
+
+#: includes/functions.php:113
+msgid "Preview"
+msgstr ""
+
+#: includes/functions.php:132
+msgid "Bottom Detail Author"
+msgstr ""
+
+#: includes/functions.php:150
+msgid "Published Books"
+msgstr ""
+
+#: includes/functions.php:176
+msgid "Books Pulished"
+msgstr ""
+
+#: includes/functions.php:294
+msgid "There is not author with this letter"
+msgstr ""
+
+#: includes/loop/archive-author.php:19
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes/default.php:14
+msgid "Please select a Author. Layout "
+msgstr ""
+
+#: includes/shortcodes/default.php:61
+msgid " books"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:17
+msgid "Sw Categories By Author"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:23
+msgid "Sw Categories By Author Widget"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:146
+msgid "Select Author"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:228
+#: includes/widgets/sw-widgets.php:119
+msgid "Title"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:235
+msgid "Description"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:242
+msgid "Select Categories"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:248
+#: includes/widgets/sw-widgets.php:126
+msgid "Number of Items"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:255
+#: includes/widgets/sw-widgets.php:133
+msgid "Orderby"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:272
+#: includes/widgets/sw-widgets.php:150
+msgid "Order"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:278
+#: includes/widgets/sw-widgets.php:156
+msgid "Descending"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:281
+#: includes/widgets/sw-widgets.php:159
+msgid "Ascending"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:288
+#: includes/widgets/sw-widgets.php:166
+msgid "Number row per column:  "
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:309
+#: includes/widgets/sw-widgets.php:187
+msgid "Number of Columns >1200px: "
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:329
+#: includes/widgets/sw-widgets.php:207
+msgid "Number of Columns on 992px to 1199px: "
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:349
+#: includes/widgets/sw-widgets.php:227
+msgid "Number of Columns on 768px to 991px: "
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:369
+#: includes/widgets/sw-widgets.php:247
+msgid "Number of Columns on 480px to 767px: "
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:389
+#: includes/widgets/sw-widgets.php:267
+msgid "Number of Columns in 480px or less than: "
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:409
+#: includes/widgets/sw-widgets.php:287
+msgid "Auto Play"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:415
+#: includes/widgets/sw-widgets.php:293
+msgid "False"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:418
+#: includes/widgets/sw-widgets.php:296
+msgid "True"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:424
+#: includes/widgets/sw-widgets.php:302
+msgid "Interval"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:431
+#: includes/widgets/sw-widgets.php:309
+msgid "Speed"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:439
+#: includes/widgets/sw-widgets.php:317
+msgid "Total Items Slided"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:446
+#: includes/widgets/sw-widgets.php:324
+msgid "Layout"
+msgstr ""
+
+#: includes/shortcodes/sw-author-categories.php:453
+#: includes/widgets/sw-widgets.php:331
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/default.php:85
+msgid "There is not item in this category"
+msgstr ""
+
+#: includes/widgets/layout1.php:27
+msgid "learn more"
+msgstr ""
+
+#: includes/widgets/layout1.php:92
+msgid "There is not item in this author"
+msgstr ""
+
+#: includes/widgets/sw-widgets.php:15
+msgid "Sw Products By Author"
+msgstr ""
+
+#: includes/widgets/sw-widgets.php:21
+msgid "Sw Products By Author widget"
+msgstr ""
+
+#: includes/widgets/sw-widgets.php:335
+msgid "Related Author Product"
+msgstr ""

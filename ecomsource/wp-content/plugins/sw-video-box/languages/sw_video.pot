@@ -1,0 +1,159 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SW Woocommerce\n"
+"POT-Creation-Date: 2021-03-12 14:16+0700\n"
+"PO-Revision-Date: 2016-09-23 17:31+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sw-video-box-widget.php:69 sw-video-box-widget.php:75
+msgid "Sw Video Box"
+msgstr ""
+
+#: sw-video-box-widget.php:101 sw-video-box-widget.php:365
+msgid "All Categories"
+msgstr ""
+
+#: sw-video-box-widget.php:104
+msgid "All Category"
+msgstr ""
+
+#: sw-video-box-widget.php:112
+msgid "SW Video Box"
+msgstr ""
+
+#: sw-video-box-widget.php:116
+msgid "SW Shortcodes"
+msgstr ""
+
+#: sw-video-box-widget.php:122 sw-video-box-widget.php:125
+#: sw-video-box-widget.php:401
+msgid "Title"
+msgstr ""
+
+#: sw-video-box-widget.php:131
+msgid "---*---General Options---*---"
+msgstr ""
+
+#: sw-video-box-widget.php:138 sw-video-box-widget.php:408
+msgid "Category"
+msgstr ""
+
+#: sw-video-box-widget.php:142
+msgid "Select a Category"
+msgstr ""
+
+#: sw-video-box-widget.php:148 sw-video-box-widget.php:151
+msgid "Order By"
+msgstr ""
+
+#: sw-video-box-widget.php:157 sw-video-box-widget.php:160
+#: sw-video-box-widget.php:435
+msgid "Order"
+msgstr ""
+
+#: sw-video-box-widget.php:166 sw-video-box-widget.php:169
+msgid "Number Of Post"
+msgstr ""
+
+#: sw-video-box-widget.php:175 sw-video-box-widget.php:178
+#: sw-video-box-widget.php:457
+msgid "Display Video Category"
+msgstr ""
+
+#: sw-video-box-widget.php:184 sw-video-box-widget.php:187
+#: sw-video-box-widget.php:471
+msgid "Display Video Time"
+msgstr ""
+
+#: sw-video-box-widget.php:193 sw-video-box-widget.php:196
+msgid "Display Video Title"
+msgstr ""
+
+#: sw-video-box-widget.php:202
+msgid "Video Title Maxlength"
+msgstr ""
+
+#: sw-video-box-widget.php:206
+msgid "Length Number Video Title"
+msgstr ""
+
+#: sw-video-box-widget.php:212 sw-video-box-widget.php:215
+msgid "Display Video Description"
+msgstr ""
+
+#: sw-video-box-widget.php:221
+msgid "Description Video Maxlength"
+msgstr ""
+
+#: sw-video-box-widget.php:225
+msgid "Length Number Video Description"
+msgstr ""
+
+#: sw-video-box-widget.php:414
+msgid "Orderby"
+msgstr ""
+
+#: sw-video-box-widget.php:441
+msgid "Descending"
+msgstr ""
+
+#: sw-video-box-widget.php:444
+msgid "Ascending"
+msgstr ""
+
+#: sw-video-box-widget.php:450
+msgid "Number of Posts"
+msgstr ""
+
+#: sw-video-box-widget.php:463 sw-video-box-widget.php:477
+#: sw-video-box-widget.php:491 sw-video-box-widget.php:512
+msgid "Yes"
+msgstr ""
+
+#: sw-video-box-widget.php:466 sw-video-box-widget.php:480
+#: sw-video-box-widget.php:494 sw-video-box-widget.php:515
+msgid "No"
+msgstr ""
+
+#: sw-video-box-widget.php:485
+msgid "Display Post Title"
+msgstr ""
+
+#: sw-video-box-widget.php:499
+msgid "Post Title Maxlength "
+msgstr ""
+
+#: sw-video-box-widget.php:506
+msgid "Display Post Description"
+msgstr ""
+
+#: sw-video-box-widget.php:520
+msgid "Post Description Maxlength "
+msgstr ""
+
+#: themes/default.php:86 themes/default.php:113
+msgid "Video Box"
+msgstr ""
+
+#: themes/default.php:118 themes/default.php:123
+msgid "Please insert a Youtube video link or Vimeo link to content!"
+msgstr ""
+
+#: themes/default.php:137
+msgid "View all"
+msgstr ""
+
+#: themes/default.php:191
+msgid "Has no item to show!"
+msgstr ""

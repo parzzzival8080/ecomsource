@@ -1,0 +1,138 @@
+
+---Downloaded files---
+The import files for: Demo Homepage 2 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/ecomsource
+Data file = C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/demo-content-all-templates.xml
+Widget file = C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/widgets.json
+Customizer file = not defined!
+Options files:
+emarket_theme -> C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/theme_options.txt 
+
+
+---Importing widgets---
+Sidebar Left Blog : 
+
+Categories - No Title - Imported
+Text - No Title - Imported
+
+Sidebar Right Blog : 
+
+Categories - No Title - Imported
+Text - No Title - Imported
+
+Top Header : 
+
+Text - No Title - Imported
+Text - No Title - Imported
+
+Mid Header : 
+
+Text - No Title - Imported
+SW Top Widget - No Title - Imported
+
+Bottom Header : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Sidebar Left Product : 
+
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - Price - Imported
+Text - No Title - Imported
+Image - No Title - Imported
+
+Sidebar Right Product : 
+
+WooCommerce product categories - Categories - Imported
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - price - Imported
+Text - No Title - Imported
+Image - No Title - Imported
+
+Sidebar Left Detail Product : 
+
+WooCommerce product categories - Categories - Imported
+Text - No Title - Imported
+Image - No Title - Imported
+
+Sidebar Right Detail Product : 
+
+WooCommerce product categories - Categories - Imported
+Image - No Title - Imported
+Text - No Title - Imported
+
+Sidebar Bottom Detail Product : 
+
+Sw Woocommerce Related &amp; Upsell Slider widget - No Title - Imported
+
+Footer Copyright : 
+
+Image - No Title - Imported
+
+Widget Search : 
+
+SW Ajax WooCommerce Search - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+array(17) {
+  ["import_file_name"]=>
+  string(15) "Demo Homepage 2"
+  ["page_title"]=>
+  string(21) "Home Page 2 Elementor"
+  ["header_title"]=>
+  string(14) "Header Style 2"
+  ["footer_title"]=>
+  string(8) "Footer_2"
+  ["site_url"]=>
+  string(52) "https://demo.wpthemego.com/themes/sw_emarket/layout2"
+  ["local_import_file"]=>
+  string(87) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/demo-content.xml"
+  ["local_import_page_file"]=>
+  string(92) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/demo-content-page.xml"
+  ["local_import_pagemenu_file"]=>
+  string(96) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/demo-content-pagemenu.xml"
+  ["local_import_template_homepage"]=>
+  string(106) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/demo-content-homepage-templates.xml"
+  ["local_import_template_all_homepages"]=>
+  string(101) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/demo-content-all-templates.xml"
+  ["local_import_widget_file"]=>
+  string(83) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/widgets.json"
+  ["local_import_revslider"]=>
+  array(2) {
+    ["slide1"]=>
+    string(85) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/slideshow2.zip"
+    ["slide2"]=>
+    string(85) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/slideshow3.zip"
+  }
+  ["local_import_options"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["file_path"]=>
+      string(88) "C:\xampp\htdocs\ecomsource/wp-content/themes/emarket/lib/import/demo-2/theme_options.txt"
+      ["option_name"]=>
+      string(13) "emarket_theme"
+    }
+  }
+  ["menu_locate"]=>
+  array(2) {
+    ["primary_menu"]=>
+    string(12) "Primary Menu"
+    ["vertical_menu"]=>
+    string(13) "Verticle Menu"
+  }
+  ["import_preview_image_url"]=>
+  string(86) "http://localhost/ecomsource/wp-content/themes/emarket/lib/import/demo-2/screenshot.png"
+  ["import_notice"]=>
+  string(114) "After you import this demo, you will have to setup the slider separately. This import maybe finish on 5-10 minutes"
+  ["preview_url"]=>
+  string(52) "http://demo.wpthemego.com/themes/sw_emarket/layout2/"
+}
+

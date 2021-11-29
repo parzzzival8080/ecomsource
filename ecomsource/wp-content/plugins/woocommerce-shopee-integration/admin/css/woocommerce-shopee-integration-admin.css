@@ -1,0 +1,830 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ body, body *{
+  box-sizing: border-box;
+  border-radius: 2px;
+ }
+
+
+ .ced-marketplaces-heading-main-wrapper,
+ .ced_shopee_wrap.ced_shopee_wrap_extn,
+ .ced_shopee_account_configuration_wrapper {
+  padding-right: 20px;
+ }
+ .ced-marketplaces-heading-wrapper, .ced_shopee_setting_header {
+  background-color: #ffffff;
+  padding: 8px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+ }
+ .ced-marketplaces-heading-wrapper h2,
+ .ced_shopee_setting_header  h2{
+  margin: 0 15px 0 0;
+  font-size: 20px;
+  line-height: 1.33;
+ }
+ .ced-marketplaces-card-view-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto;
+ }
+ .navigation:after{
+  clear: both;
+  display: block;
+  content: "";
+ }
+ .ced-marketplace-card {
+  width: 30.33%;
+  margin-right: 3%;
+  margin-top: 30px;
+ }
+ .ced-marketplace-card a {
+  display: block;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: #f8f8f8;
+  text-decoration: none;
+ }
+ .ced-marketplace-card .thumbnail {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding: 20px 0;
+ }
+ .ced-marketplace-card .mp-label {
+  color: #333;
+  font-size: 18px;
+  padding: 15px 10px;
+ }
+ .navigation-wrapper {
+  background-color: #ffffff;
+  padding:7px 10px;
+  margin: 15px 20px 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+ #bulk-action-selector-top,#bulk-action-selector-bottom
+ {
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 60%;
+ }
+
+#ced_shopee_logistics
+{
+  height: 60px !important;
+}
+ .ced_shopee_category_mapping_wrapper
+ {
+  margin-right: 20px;
+ }
+ .ced_shopee_category_not_mapped{
+  color: red;
+}
+#ced_shopee_category_mapping_header button {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.ced_shopee_current_account_name {
+  font-size: 14px;
+  color: #757171;
+  padding: 8px;
+}
+.navigation {
+  margin: 0;
+  border-bottom: 1px solid #cccccc;
+}
+.navigation li {
+  float: left;
+  margin: 0 0 0 7px;
+}
+.navigation li a {
+  color: #555555;
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none;
+  background-color: #eeeeee;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  border-color: #ccc;
+}
+.navigation li a:hover,
+.navigation li a:focus{
+  background-color: #ffffff;
+  color: #444444;
+}
+.navigation li a.active
+{
+  background-color: #0073aa;
+  color: #fff;
+}
+.ced_shopee_account_configuration_fields_table th{
+  font-weight: bold;
+}
+.ced_shopee_account_configuration_fields_table select {
+  border: 1px solid #ddd;
+  height: auto;
+  min-width: 200px;
+}
+.ced_shopee_add_account_popup_main_wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition: 0.3s linear all;
+  height: 100%;
+  overflow-y: auto;
+}
+.ced_shopee_add_account_popup_main_wrapper.show {
+  transform: translateY(0);
+  visibility: visible;
+  transition: 0.3s linear all;
+}
+.ced_shopee_add_account_popup_content {
+  max-width: 650px;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+}
+.ced_shopee_add_account_popup_header {
+  background-color: #f1f1f1;
+  padding: 15px;
+  position: relative;
+}
+.ced_shopee_add_account_popup_header h5 {
+  margin: 0;
+  font-size: 22px;
+}
+.ced_shopee_add_account_popup_close {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  color: #877f7f;
+  cursor: pointer;
+}
+.ced_shopee_add_account_popup_body ul {
+  margin: 0;
+}
+.ced_shopee_add_account_popup_body {
+  padding: 30px 40px;
+}
+.ced_shopee_add_account_popup_body ul li {
+  list-style-type: decimal;
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.ced_shopee_add_account_popup_body h6 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.ced_shopee_add_account_popup_body h6::after {
+  content: "";
+  border-bottom: 4px solid #444444;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 50px;
+  margin: 0 auto;
+}
+.ced_shopee_add_account_button_wrapper{
+  margin-top: 20px;
+}
+.ced_shopee_add_button{
+  background-color: #0073aa;
+  color: #ffffff;
+  display: inline-block;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+.ced_shopee_add_button:hover,
+.ced_shopee_add_button:focus{
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px){
+  .navigation{
+   border-bottom: none;
+ }
+ .navigation li{
+   margin-top: 6px;
+ }
+ .navigation li a{
+   border-width: 1px 1px 1px 1px;
+ }
+ .ced-marketplaces-heading-wrapper h2, .ced_shopee_setting_header h2{
+   font-size: 16px;
+ }
+ .ced_shopee_account_configuration_fields_table select{
+   width: 120px;
+   font-size: 13px !important;
+   min-width: 120px;
+ }
+ .ced-marketplace-card{
+   width: 100%;
+   margin-right: 0;
+ }
+ .ced-marketplaces-heading-main-wrapper, .ced_shopee_wrap.ced_shopee_wrap_extn, .ced_shopee_account_configuration_wrapper{
+   padding-right: 10px;
+ }
+ .ced-marketplaces-card-view-wrapper{
+   padding-right: 10px;
+ }
+ .ced_shopee_add_account_popup_close{
+   top: 2px;
+   right: 15px;
+ }
+}
+
+.ced_shopee_loader{
+  display: none;
+}
+
+.ced_shopee_loader {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.52);
+  width: 100%;
+  z-index: 9999;
+  height: 108%;
+}
+.ced_shopee_loader img {
+  text-align: center;
+  margin: 0 auto;
+  width: 50px;
+  display: block;
+  margin-top: 25%;
+}
+
+.ced_shopee_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+ #post-body-content {
+  padding-right: 20px;
+}
+.ced_shopee_categories{
+  display: none;
+}
+.manage_labels
+{
+  font-size: 20px;
+  color: #0073aa;
+}
+.ced_shopee_global_settings_fields_table th label
+{
+  font-weight: bold;
+}
+.ced_shopee_custom_button
+{
+  background-color: #0073aa;
+  color: #ffffff;
+  display: inline-block;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+.ced_shopee_preview_product_popup_main_wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition: 0.3s linear all;
+  color: #666666;
+
+}
+.ced_shopee_preview_product_popup_main_wrapper.show {
+  transform: translateY(0);
+  visibility: visible;
+  transition: 0.3s linear all;
+}
+.ced_shopee_preview_product_popup_content {
+  max-width: 800px;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  min-height: 450px;
+  height: 100%;
+  clear: both;
+}
+.ced_shopee_preview_product_popup_header {
+  padding: 10px;
+  position: relative;
+}
+.ced_shopee_preview_product_popup_header h5 {
+  margin: 0;
+  font-size: 22px;
+}
+.ced_shopee_preview_product_popup_close {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  color: #877f7f;
+  cursor: pointer;
+}
+.ced_shopee_preview_product_button_wrapper{
+  margin-top: 20px;
+}
+.preview_content {
+  padding: 10px;
+  float: left;
+}
+.preview-image-col {
+  width: 40%;
+}
+.preview_content-col {
+  width: 60%;
+}
+#Price_detail{
+  padding: 10px;
+  font-size: 28px;
+  background-color: #eeeeee;
+  color:#d0011b ;
+  font-weight: bold;
+}
+#preview-image img {
+  max-width: 290px;
+  height: 210px;
+}
+.preview_product_name{
+  color:  #328eba;
+  font-size: 20px;
+  margin-top:0;
+}
+.ced_shopee_preview_detail_desc img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.ced_shopee_preview_detail ul li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.ced_shopee_preview_detail_name {
+  width: 100px;
+}
+.ced_shopee_preview_detail_desc {
+  width: calc(100% - 110px);
+  margin-left: 10px;
+}
+.ced_shopee_product_variation {
+  border: 1px solid #dddddd;
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 10px;
+  min-width: 70px;
+  padding: 7px;
+  text-align: center;
+}
+#ced_shopee_search_product_name {
+  width: 60%;
+}
+.ced-shopee-search-product-list li {
+  padding: 5px;
+  margin: 0px;
+  color: #000000;
+  cursor: pointer;
+}
+.ced_shopee_qnty_wrapper {
+  border: 1px solid #dddddd;
+  display: inline-block;
+}
+.ed_shopee_qnty_point {
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.ed_shopee_qnty_point,.ed_shopee_qnty_number{
+  padding: 5px;
+}
+.ed_shopee_qnty_number {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  min-width: 40px;
+  display: inline-block;
+  text-align: center;
+}
+.ced_shopee_product_piece {
+  display: inline-block;
+  color: #777777;
+  margin-left: 15px;
+}
+.ced_shopee_preview_btn {
+  background-color: #ffffff;
+  border: 1px solid#d0011b;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 15px;
+  min-width: 150px;
+  padding: 13px;
+  text-transform: capitalize;
+}
+.ced_shopee_preview_buy_now{
+  background-color:#d0011b;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.ced_shopee_thumbnail ul {
+  display: flex;
+  overflow-y: auto;
+  margin: 0;
+}
+.ced_shopee_thumbnail ul li {
+  width: 100px;
+  margin: 9px;
+  cursor: pointer;
+  overflow: hidden;
+  height: 55px;
+}
+.ced_shopee_thumbnail ul li img{
+  max-width: 100%;
+  width: auto;
+}
+.ced_shopee_preview_product_popup_body::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.ced_shopee_product_wrapper {
+  padding: 10px;
+}
+.ced_shopee_product_listing {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.ced_shopee_product_listing li {
+  display: flex;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+.ced_shopee_product_listing li .ced_shopee_product_value {
+  width: 110px;
+  font-weight: 500;
+}
+.ced_shopee_product_desc {
+  width: calc(100% - 120px);
+  margin-left: 10px;
+}
+.ced_shopee_product_title {
+  background-color: rgba(0,0,0,.02);
+  padding: 10px;
+  font-size: 18px;
+}
+.ced_shopee_product_para {
+  padding-left: 10px;
+}
+input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+/*==========================================
+=            profile tab design            =
+==========================================*/
+.ced_shopee_profile_details_fields {
+  overflow-y: auto;
+}
+.ced_shopee_profile_details_fields table {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 15px auto;
+  table-layout: fixed;
+}
+.ced_shopee_profile_details_fields table td,
+.ced_shopee_profile_details_fields table th {
+  padding: 10px;
+}
+.ced_shopee_profile_heading {
+  text-align: left;
+  background-color: #0073aa;
+  color: #fff;
+  display: inline-block;
+  margin: 10px;
+}
+.ced_shopee_profile_details_fields table td input[type="text"],
+.ced_shopee_profile_details_fields table td select {
+  border: 1px solid #ddd;
+  height: auto;
+  width: 90%;
+}
+.ced_shopee_wal_required {
+  color: #fb0606;
+}
+.ced_shopee_profile_details_fields table td label {
+  font-weight: bold;
+}
+.ced_shopee_profile_details_wrapper {
+  padding-right: 20px;
+}
+/*=====  End of profile tab design  ======*/
+
+@media screen and (max-width: 767px) {
+  #ced_shopee_preview{
+    display: none;
+  }
+}
+.ced_shopee_immediate_operation
+{
+  display: block;
+  margin-left: 10px;
+}
+.ced_shopee_settings_heading , .ced_shopee_shipping_heading
+{
+  text-align: left;
+  background-color: #0073aa;
+  color: #fff !important;
+  display: inline-block;
+  margin: 10px;
+}
+.ced_shopee_prod_name
+{
+  font-size: 16px;
+}
+.profile_button
+{
+  margin:10px 20px;
+}
+table tbody tr input.shipping_input
+{
+  border: 1px solid #ddd;
+box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+background-color: #fff;
+color: #32373c;
+outline: 0;
+transition: 50ms border-color ease-in-out;
+width: 80%;
+}
+table tbody.ced_shopee_shipping_section td
+{
+  padding: 0px;
+}
+.ced_shopee_preview_product_popup_close
+{
+  font-size: 15px;
+}
+
+.pagination_button
+{
+  height: auto;
+  width: 3%;
+  border:1px solid #ccc;
+}
+#pagination_input
+{
+  width: 4%;
+  height: auto;
+  border:1px solid #ccc;
+}
+.ced_shopee_pagination_wrapper
+{
+  margin-top: 5px;
+}
+.notice
+{
+  margin: 10px 20px 0px 0px;
+}
+.not_completed
+{
+  color: red;
+}
+.stock_alert,.relist_notify
+{
+  color: #b67700;
+}
+.success_upload_on_shopee
+{
+  color: green;
+}
+#ced_shopee_pagination_wrapper
+{
+  margin-top: 10px;
+}
+#ced_shopee_pagination_wrapper a
+{
+  text-decoration: none;
+}
+.pagination_button
+{
+  width: 2%;
+  border: 1px solid #ccc;
+}
+.pagination_input
+{
+  width: 4%;
+   border: 1px solid #ccc;
+}
+.add_profile_button
+{
+  text-decoration: none;
+}
+.add_profile_button:hover
+{
+  color: #fff;
+}
+td input#ced_shopee_add_custom_profile_name
+{
+  margin-left: 26em;
+  background-color: #0073aa;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+.ced_shopee_profile_dropdown
+{
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  max-height: 10px;
+}
+.ced_shopee_profile_selected_on_popup
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 100%;
+}
+.select_boxes
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 40%;
+}
+.select_boxes_product_page
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 13%;
+}
+.select_boxes_cat_map
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 100%;
+}
+.bulk-action-selector
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 60%;
+}
+.select_boxes_scheduler
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 90%;
+}
+.ced_shopee_inputs
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 40%;
+}
+#search_id-search-input
+{
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: 62%;
+}
+.ced_shopee_profile_popup_content
+{
+  width: 40%;
+  background-color: #fff;
+}
+.ced_shopee_profile_popup_content div#profile_pop_up_head
+{
+  width: 90%;
+  margin: 10px auto;
+}
+#ced_shopee_save_profile_through_popup
+{
+  margin:40px 0px;
+  width: 100%;
+}
+#ced_shopee_save_profile_through_popup_container
+{
+  width: 90%;
+  margin: auto;
+}
+ #profile_pop_up_head_main
+ {
+  background-color: #eeeeee;
+  width: 90%;
+  margin:20px auto;
+  overflow: hidden;
+ }
+#profile_pop_up_head_main h2
+{
+  color:  #0073aa;
+  padding:15px;
+   float: left;
+   margin: 0px;
+  width: 80%;
+}
+#profile_pop_up_head h3
+{
+  color:  #0073aa;
+}
+
+#profile_pop_up_head_main div
+{
+  width: 20%;
+  float: left;
+  padding:15px;
+  text-align: right;
+}
+.ced_shopee_profile_popup_close
+{
+  color: #877f7f;
+  cursor: pointer;
+}
+
+.switch_accounts:hover
+{
+  color: #fff;
+}
+
+.ced_shopee_wrap {
+  width: 100%;
+  margin: 10px auto;
+  }
+  .ced_shopee_setting_header.ced_shopee_bottom_margin
+  {
+  width: 98%;
+  margin: 10px 0px 10px 0px;
+  padding: 13px;
+  }
+  .ced_shopee_license_divs
+  {
+  width: 98%;
+  }
+  .ced_shopee_select
+  {
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  }
+  .ced_shopee_current_account_name label
+  {
+  color:  #0073aa;
+  }
+  a.ced_configuration_plugin_main
+  {
+  padding: 8px 15px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px !important;
+  margin-left: -10px !important;
+}
+.ced_shopee_select.ced_shopee_global_select_box.select_boxes {
+  min-width: 40%;
+}
+.ced_shopee_child_element{
+  display: none;
+}

@@ -1,0 +1,122 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SW Core\n"
+"POT-Creation-Date: 2019-10-30 09:01+0700\n"
+"PO-Revision-Date: 2016-11-16 11:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;_e;_x;esc_html_e;_n;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sw-liststore.php:52 sw-liststore.php:53
+msgid "SW List Store"
+msgstr ""
+
+#: sw-liststore.php:85
+msgid "List Store Panel"
+msgstr ""
+
+#: sw-liststore.php:97 sw-liststore.php:167
+msgid "Title"
+msgstr ""
+
+#: sw-liststore.php:102 sw-liststore.php:171
+msgid "Address"
+msgstr ""
+
+#: sw-liststore.php:107 sw-liststore.php:175
+msgid "Email"
+msgstr ""
+
+#: sw-liststore.php:112 sw-liststore.php:179
+msgid "Phone"
+msgstr ""
+
+#: sw-liststore.php:117 sw-liststore.php:183
+msgid "Website"
+msgstr ""
+
+#: sw-liststore.php:122 sw-liststore.php:187
+msgid "Map"
+msgstr ""
+
+#: sw-liststore.php:127 sw-liststore.php:191
+msgid "Upload Image Thumbnail"
+msgstr ""
+
+#: sw-liststore.php:140 sw-liststore.php:197
+msgid "Upload/Add image"
+msgstr ""
+
+#: sw-liststore.php:141 sw-liststore.php:198
+msgid "Remove image"
+msgstr ""
+
+#: sw-liststore.php:146 sw-liststore.php:203
+msgid "Remove This Block"
+msgstr ""
+
+#: sw-liststore.php:242
+msgid "Choose an image"
+msgstr ""
+
+#: sw-liststore.php:244
+msgid "Use image"
+msgstr ""
+
+#: sw-liststore.php:302
+msgid "Config Liststore"
+msgstr ""
+
+#: sw-liststore.php:313
+msgid "Select Style"
+msgstr ""
+
+#: sw-liststore.php:314
+msgid "Style 1"
+msgstr ""
+
+#: sw-liststore.php:315
+msgid "Style 2"
+msgstr ""
+
+#: sw-liststore.php:316
+msgid "Style 3"
+msgstr ""
+
+#: sw-liststore.php:320
+msgid "Enable Mobile Layout for this page"
+msgstr ""
+
+#: sw-liststore.php:323
+msgid "Select Header Mobile"
+msgstr ""
+
+#: sw-liststore.php:340
+msgid "Select Footer Mobile"
+msgstr ""
+
+#: sw-liststore.php:410
+msgid "Address: "
+msgstr ""
+
+#: sw-liststore.php:411
+msgid "Email: "
+msgstr ""
+
+#: sw-liststore.php:412
+msgid "Phone: "
+msgstr ""
+
+#: sw-liststore.php:413
+msgid "Website: "
+msgstr ""

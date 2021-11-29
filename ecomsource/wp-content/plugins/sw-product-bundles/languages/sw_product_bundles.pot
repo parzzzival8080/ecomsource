@@ -1,0 +1,506 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sw Product Bundles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-08 11:53+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html__;esc_attr__;esc_html_e;esc_attr_e;__;_e;_n:1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/view/admin-form.php:15
+msgid "Bundled Product"
+msgstr ""
+
+#: admin/view/admin-form.php:21
+msgid "Bundled"
+msgstr ""
+
+#: admin/view/admin-form.php:34
+msgid "Total Price"
+msgstr ""
+
+#: admin/view/admin-form.php:44
+msgid "Show on Product Page"
+msgstr ""
+
+#: admin/view/admin-form.php:44
+msgid "Un check if you want to hide the bundle on product page."
+msgstr ""
+
+#: admin/view/admin-form.php:45
+msgid "Show on Cart Page"
+msgstr ""
+
+#: admin/view/admin-form.php:45
+msgid "Un check if you want to hide the bundle on cart."
+msgstr ""
+
+#: admin/view/admin-form.php:46
+msgid "Show on Order"
+msgstr ""
+
+#: admin/view/admin-form.php:46
+msgid "Un check if you want to hide the bundle on order."
+msgstr ""
+
+#: admin/view/admin-form.php:100
+msgid "Search Products"
+msgstr ""
+
+#: admin/view/admin-form.php:108
+msgid "Close all"
+msgstr ""
+
+#: admin/view/admin-form.php:109
+msgid "Expand all"
+msgstr ""
+
+#: admin/view/admin-form.php:110
+msgid "Add Products"
+msgstr ""
+
+#: admin/view/list.php:90
+msgid "Remove"
+msgstr ""
+
+#: admin/view/list.php:90
+msgid "from bundle"
+msgstr ""
+
+#: admin/view/list.php:93
+msgid "Show Thumbnail"
+msgstr ""
+
+#: admin/view/list.php:93
+msgid "Check if you want to show the thumbnail of this product."
+msgstr ""
+
+#: admin/view/list.php:94
+msgid "Show Category"
+msgstr ""
+
+#: admin/view/list.php:94
+msgid "Check if you want to show the category of this product."
+msgstr ""
+
+#: admin/view/list.php:95
+msgid "Include Tax"
+msgstr ""
+
+#: admin/view/list.php:95
+msgid "Check if you want to include the tax with price."
+msgstr ""
+
+#: admin/view/list.php:97
+msgid "Price"
+msgstr ""
+
+#: admin/view/list.php:97
+msgid "Give a special price. If you leave it blank, product's regular price will be used instead"
+msgstr ""
+
+#: admin/view/list.php:98
+msgid "Quantity"
+msgstr ""
+
+#: admin/view/list.php:98
+msgid "How many quantity should be added to the bundle. If you leave it blank, by default it will be 1"
+msgstr ""
+
+#: admin/view/list.php:100 admin/view/list.php:102
+#: includes/sw-bundle-product-slider-widget.php:115
+#: includes/sw-bundle-product-slider-widget.php:119
+#: includes/sw-bundle-product-slider-widget.php:588
+msgid "Title"
+msgstr ""
+
+#: admin/view/list.php:100 admin/view/list.php:102
+msgid "Give a special title, otherwise original title will be used instead."
+msgstr ""
+
+#: admin/view/list.php:111
+msgid "Search for products, select as many as product you want and add those to bundle using \"Add Products\". Only \"Simple\" or \"variable\" product are allowed to add. You can also drag drop to re arrange the order of bundled products in product page.!"
+msgstr ""
+
+#: front-end/product-form.php:28
+msgid "Buy this bundle and get sale off"
+msgstr ""
+
+#: front-end/product-form.php:82
+msgid "instock"
+msgstr ""
+
+#: front-end/product-form.php:84
+msgid "out of stock"
+msgstr ""
+
+#: front-end/product-form.php:149
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: front-end/product-form.php:150
+#, php-format
+msgid "%s has been added to your cart."
+msgid_plural "%s have been added to your cart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: front-end/product-form.php:155
+msgid "View Cart"
+msgstr ""
+
+#: front-end/product-form.php:225
+msgid "Bundle Includes"
+msgstr ""
+
+#: front-end/product-form.php:332
+#: includes/sw-bundle-product-slider-widget.php:846
+msgid "Combo"
+msgstr ""
+
+#: front-end/product-form.php:348
+msgid "You cannot add that amount of quantity, because there is not enough stock"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:67
+#: includes/sw-bundle-product-slider-widget.php:73
+msgid "Sw Bundle Product Slider Widget"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:98
+#: includes/sw-bundle-product-slider-widget.php:161
+msgid "Select Categories"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:105
+msgid "Sw Bundle Product Slider"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:109
+msgid "SW Shortcodes"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:125
+#: includes/sw-bundle-product-slider-widget.php:606
+msgid "Product Title Length"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:129
+msgid "Choose Product Title Length if you want to trim word, leave 0 to not trim word"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:135
+#: includes/sw-bundle-product-slider-widget.php:139
+msgid "Layout"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:145
+msgid "Product Name"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:157
+#: includes/sw-bundle-product-slider-widget.php:620
+msgid "Category"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:173
+#: includes/sw-bundle-product-slider-widget.php:177
+msgid "Order By"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:183
+#: includes/sw-bundle-product-slider-widget.php:187
+#: includes/sw-bundle-product-slider-widget.php:647
+msgid "Order"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:194
+#: includes/sw-bundle-product-slider-widget.php:698
+msgid "Number of Columns >1200px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:198
+msgid "Number of Columns >1200px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:204
+#: includes/sw-bundle-product-slider-widget.php:208
+msgid "Number of Columns on 992px to 1199px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:214
+#: includes/sw-bundle-product-slider-widget.php:218
+msgid "Number of Columns on 768px to 991px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:224
+#: includes/sw-bundle-product-slider-widget.php:228
+msgid "Number of Columns on 480px to 767px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:234
+#: includes/sw-bundle-product-slider-widget.php:238
+msgid "Number of Columns in 480px or less than:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:244
+#: includes/sw-bundle-product-slider-widget.php:820
+msgid "Speed"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:248
+msgid "Speed Of Slide"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:254
+#: includes/sw-bundle-product-slider-widget.php:258
+#: includes/sw-bundle-product-slider-widget.php:798
+msgid "Auto Play"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:264
+#: includes/sw-bundle-product-slider-widget.php:268
+#: includes/sw-bundle-product-slider-widget.php:813
+msgid "Interval"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:275
+#: includes/sw-bundle-product-slider-widget.php:279
+#: includes/sw-bundle-product-slider-widget.php:828
+msgid "Total Items Slided"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:597
+msgid "Title2"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:613
+msgid "Description"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:626
+msgid "Orderby"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:653
+msgid "Descending"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:656
+msgid "Ascending"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:662
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:669
+msgid "Excerpt length (in words): "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:677
+msgid "Number row per column:  "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:718
+msgid "Number of Columns on 992px to 1199px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:738
+msgid "Number of Columns on 768px to 991px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:758
+msgid "Number of Columns on 480px to 767px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:778
+msgid "Number of Columns in 480px or less than: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:804
+msgid "False"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:807
+msgid "True"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:835
+msgid "Template"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:842
+msgid "Default"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:850
+msgid "Theme1"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:854
+msgid "Theme2"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:858
+msgid "Theme3"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:862
+msgid "Theme4"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:866
+msgid "Theme5"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:870
+msgid "Theme6"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:874
+msgid "Theme7"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:878
+msgid "Theme8"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:882
+msgid "Theme9"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:886
+msgid "Theme10"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:890
+msgid "Tab Combo"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/default.php:6
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:6
+#: includes/themes/sw-bundle-product-slider/tab-combo.php:9
+#: includes/themes/sw-bundle-product-slider/theme1.php:8
+#: includes/themes/sw-bundle-product-slider/theme10.php:6
+#: includes/themes/sw-bundle-product-slider/theme2.php:8
+#: includes/themes/sw-bundle-product-slider/theme3.php:9
+#: includes/themes/sw-bundle-product-slider/theme4.php:9
+#: includes/themes/sw-bundle-product-slider/theme5.php:6
+#: includes/themes/sw-bundle-product-slider/theme6.php:6
+#: includes/themes/sw-bundle-product-slider/theme7.php:6
+#: includes/themes/sw-bundle-product-slider/theme8.php:6
+#: includes/themes/sw-bundle-product-slider/theme9.php:8
+msgid "All Categories"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:71
+msgid "INCLUDED: "
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:71
+msgid " ITEMS"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:103
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:103
+msgid "out of 5"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/tab-combo.php:125
+#: includes/themes/sw-bundle-product-slider/theme3.php:151
+msgid "Combo Price:"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/tab-combo.php:133
+#: includes/themes/sw-bundle-product-slider/theme3.php:159
+#: includes/themes/sw-bundle-product-slider/theme4.php:158
+msgid "Save"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/tab-combo.php:137
+#: includes/themes/sw-bundle-product-slider/theme3.php:163
+#: includes/themes/sw-bundle-product-slider/theme4.php:173
+#: includes/themes/sw-bundle-product-slider/theme5.php:106
+msgid "Get this Combo"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme1.php:43
+msgid "see all"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme2.php:77
+msgid "Discover More"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme3.php:65
+#: includes/themes/sw-bundle-product-slider/theme4.php:66
+msgid " items"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme3.php:74
+#: includes/themes/sw-bundle-product-slider/theme4.php:75
+msgid "Sold number: "
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme3.php:80
+#: includes/themes/sw-bundle-product-slider/theme4.php:81
+msgid "See detail"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme3.php:182
+#: includes/themes/sw-bundle-product-slider/theme4.php:192
+#: includes/themes/sw-bundle-product-slider/theme5.php:124
+msgid "Prev"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme3.php:183
+#: includes/themes/sw-bundle-product-slider/theme4.php:193
+#: includes/themes/sw-bundle-product-slider/theme5.php:125
+msgid "Next"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme4.php:150
+msgid "Original price"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme4.php:165
+msgid "Combo price"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme7.php:78
+#: includes/themes/sw-bundle-product-slider/theme8.php:95
+msgid "off"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme8.php:42
+msgid "View all"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme8.php:105
+msgid "Bundle Includes:"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/theme9.php:78
+msgid "Add to Compare"
+msgstr ""
+
+#: sw-product-bundles.php:118
+msgid "Sw Bundles Product is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""

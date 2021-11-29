@@ -1,0 +1,44 @@
+body.mobile-liststore {
+  background: url(../images/demo/bg_demo.jpg) no-repeat center top #333;
+  height: 980px;
+	overflow: hidden;
+	background-size: 100% auto;
+}
+body.mobile-liststore .body-wrapper {
+  padding: 0 10px;
+  top: auto;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -212px;
+  width: 424px;
+  margin-left: 0 auto;
+  background: url(../images/demo/iphone.png) no-repeat center top;
+}
+body.mobile-liststore .body-wrapper .body-wrapper-inner {
+  width: 354px;
+  height: 575px;
+  margin: 93px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fff;
+}
+body.mobile-liststore .body-wrapper .body-wrapper-inner .row {
+  margin: 0;
+}
+body.mobile-liststore .footer-mstyle1 .footer-container {
+  width: 354px;
+  left: 50%;
+  margin-left: -177px;
+  bottom: 93px;
+}
+body.mobile-liststore .vc_row[data-vc-full-width] {
+  width: auto !important;
+  left: auto !important;
+}
+body.mobile-liststore .single-product > .tabs .tabbable .tab-content .tab-pane p .alignnone.image-content{
+	margin: 0 0 30px;
+}
+body.mobile-liststore.single-product.mobile-layout .content-product-detail .product_detail .content_product_detail .cart .quantity input{
+	width: 45px;
+}
