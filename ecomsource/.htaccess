@@ -6,16 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /ecomsource/
+RewriteBase /test/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ecomsource/index.php [L]
+RewriteRule . /test/index.php [L]
 </IfModule>
-
-php_value upload_max_filesize 999M
-php_value post_max_size 999M
-php_value max_execution_time 30000
-php_value max_input_time 30000
 
 # END WordPress

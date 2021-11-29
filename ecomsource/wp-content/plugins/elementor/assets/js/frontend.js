@@ -1,4 +1,4 @@
-/*! elementor - v3.4.8 - 16-11-2021 */
+/*! elementor - v3.4.5 - 12-10-2021 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["frontend"],{
 
 /***/ "../assets/dev/js/frontend/documents-manager.js":
@@ -1018,11 +1018,12 @@ class BackgroundVideo extends elementorModules.frontend.handlers.Base {
     }
   }
 
-  prepareVimeoVideo(Vimeo, videoLink) {
+  prepareVimeoVideo(Vimeo, videoId) {
     const elementSettings = this.getElementSettings(),
+          startTime = elementSettings.background_video_start ? elementSettings.background_video_start : 0,
           videoSize = this.elements.$backgroundVideoContainer.outerWidth(),
           vimeoOptions = {
-      url: videoLink,
+      id: videoId,
       width: videoSize.width,
       autoplay: true,
       loop: !elementSettings.background_play_once,
@@ -1143,7 +1144,7 @@ class BackgroundVideo extends elementorModules.frontend.handlers.Base {
         }
 
         if ('vimeo' === this.videoType) {
-          this.prepareVimeoVideo(apiObject, videoLink);
+          this.prepareVimeoVideo(apiObject, videoID);
         }
       });
     } else {
@@ -1945,10 +1946,6 @@ class _default extends elementorModules.ViewModule {
         if (settings.id) {
           lightbox.openSlideshow(settings.id, settings.url);
         } else {
-          if (settings.html) {
-            delete settings.html;
-          }
-
           lightbox.showModal(settings);
         }
       }

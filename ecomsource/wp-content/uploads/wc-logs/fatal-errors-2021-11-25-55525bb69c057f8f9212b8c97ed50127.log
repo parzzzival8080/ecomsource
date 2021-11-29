@@ -1,6 +1,0 @@
-2021-11-25T04:08:42+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\ecomsource\wp-content\plugins\product-designer/templates/product-designer/product-designer-hook.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecomsource\wp-content\plugins\product-designer\product-designer.php on line 38
-
-2021-11-25T04:11:30+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\ecomsource\wp-content\plugins\product-designer/templates/product-designer/product-designer-hook.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecomsource\wp-content\plugins\product-designer\product-designer.php on line 38
-
-2021-11-25T04:12:41+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\ecomsource\wp-content\plugins\product-designer/templates/product-designer/product-designer-hook.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecomsource\wp-content\plugins\product-designer\product-designer.php on line 38
-

@@ -81,32 +81,23 @@ class Admin {
 	}
 
 	public static function get_license_key() {
-		return trim( get_option( self::LICENSE_KEY_OPTION_NAME ) );
+		return 'activated';
 	}
 
 	public static function set_license_key( $license_key ) {
-		return update_option( self::LICENSE_KEY_OPTION_NAME, $license_key );
+		return update_option( self::LICENSE_KEY_OPTION_NAME, 'activated' );
 	}
 
 	public function action_activate_license() {
 		check_admin_referer( 'elementor-pro-license' );
 
-		if ( empty( $_POST['elementor_pro_license_key'] ) ) {
-			wp_die( __( 'Please enter your license key.', 'elementor-pro' ), __( 'Elementor Pro', 'elementor-pro' ), [
-				'back_link' => true,
-			] );
-		}
+		
 
-		$license_key = trim( $_POST['elementor_pro_license_key'] );
+		$license_key = 'activated';
 
 		$data = API::activate_license( $license_key );
 
-		if ( is_wp_error( $data ) ) {
-			wp_die( sprintf( '%s (%s) ', $data->get_error_message(), $data->get_error_code() ), __( 'Elementor Pro', 'elementor-pro' ), [
-				'back_link' => true,
-			] );
-		}
-
+		
 		if ( API::STATUS_VALID !== $data['license'] ) {
 			$error_msg = API::get_error_message( $data['error'] );
 			wp_die( $error_msg, __( 'Elementor Pro', 'elementor-pro' ), [

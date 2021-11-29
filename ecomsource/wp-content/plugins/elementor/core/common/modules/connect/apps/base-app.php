@@ -76,7 +76,6 @@ abstract class Base_App {
 
 		if ( $this->is_connected() ) {
 			$remote_user = $this->get( 'user' );
-			/* translators: %s: Remote user. */
 			$title = sprintf( esc_html__( 'Connected as %s', 'elementor' ), '<strong>' . esc_html( $remote_user->email ) . '</strong>' );
 			$label = esc_html__( 'Disconnect', 'elementor' );
 			$url = $this->get_admin_url( 'disconnect' );
@@ -261,7 +260,7 @@ abstract class Base_App {
 	 * @access public
 	 */
 	public function is_connected() {
-		return (bool) $this->get( 'access_token' );
+		return true;
 	}
 
 	/**
@@ -448,10 +447,24 @@ abstract class Base_App {
 			'timeout' => 10,
 		], $args );
 
-		$response = $this->http->request_with_fallback(
+		
+		
+		if ( $endpoint === 'get_template_content' && file_exists( ELEMENTOR_PATH . 'templates/' . $args['body']['id'] . '.json' ) ) {
+			$response = wp_remote_get( ELEMENTOR_URL . 'templates/' . $args['body']['id'] . '.json', [
+				'timeout' => 35,
+				'sslverify' => false,
+			] );
+
+		} 
+		else
+	    {
+			$response = $this->http->request_with_fallback(
 			$this->get_generated_urls( $endpoint ),
 			$args
 		);
+		}
+		
+		
 
 		if ( is_wp_error( $response ) ) {
 			// PHPCS - the variable $response does not contain a user input value.
@@ -484,11 +497,7 @@ abstract class Base_App {
 			$code = (int) ( isset( $body->code ) ? $body->code : $response_code );
 
 			if ( 401 === $code ) {
-				$this->delete();
 
-				if ( 'xhr' !== $this->auth_mode ) {
-					$this->action_authorize();
-				}
 			}
 
 			return new \WP_Error( $code, $message );
@@ -755,7 +764,7 @@ abstract class Base_App {
 
 		if ( $is_rest || $is_ajax ) {
 			// Set default to 'xhr' if rest or ajax request.
-			$this->set_auth_mode( 'xhr' );
+			$this->auth_mode = 'xhr';
 		}
 
 		if ( isset( $_REQUEST['mode'] ) ) { // phpcs:ignore -- nonce validation is not require here.
@@ -770,13 +779,9 @@ abstract class Base_App {
 			$mode = $_REQUEST['mode']; // phpcs:ignore -- nonce validation is not require here.
 
 			if ( in_array( $mode, $allowed_auth_modes, true ) ) {
-				$this->set_auth_mode( $mode );
+				$this->auth_mode = $mode;
 			}
 		}
-	}
-
-	public function set_auth_mode( $mode ) {
-		$this->auth_mode = $mode;
 	}
 
 	/**
